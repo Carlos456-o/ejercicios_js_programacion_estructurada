@@ -104,6 +104,8 @@ const personas = [
 ];
 
 
+
+
 //Obtén un nuevo arreglo con todas las personas cuya edad sea mayor o iguala 18 años.
 const mayoresDe18 = personas.filter(p => p.edad >= 18);
 console.log(mayoresDe18);
@@ -119,3 +121,7 @@ console.log(todosMayoresOIgualesA15); // true
 //Comprueba si existe al menos una persona en el arreglo que tenga 40 años
 const hayAlguienDe40 = personas.some(p => p.edad === 40);
 console.log(hayAlguienDe40); // true
+
+const palabras = ["sol", "luna", "estrella", "cielo", "mar"];
+//Obtén un nuevo arreglo con todas las palabras que tengan más de 3 letras.
+const masDe3Letras = palabras.filter(p => p.length > 3);
