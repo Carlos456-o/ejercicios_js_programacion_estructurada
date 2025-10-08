@@ -77,3 +77,12 @@ console.log(productosBajoStock(productos));
 const promedioPrecios = (arr) => arr.reduce((total, producto) => total + producto.precio, 0) / arr.length;
 console.log(promedioPrecios(productos));
 
+
+
+
+
+
+
+
+
+
